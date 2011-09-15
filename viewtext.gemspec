@@ -19,4 +19,7 @@ EOT
   s.add_dependency 'sanitize'
   s.add_dependency 'faraday-stack'
   s.add_dependency 'json'
+
+  s.add_development_dependency 'webmock'
+  s.add_development_dependency 'mocha'
 end
