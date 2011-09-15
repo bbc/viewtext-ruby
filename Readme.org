@@ -1,0 +1,15 @@
+* ViewText
+
+A simple ruby interface to the [[http://viewtext.org/][viewtext.org]] API.
+
+* Installation
+
+ : gem install viewtext
+
+* Usage
+
+ : require 'viewtext'
+ :
+ : v = ViewText.new('http://nokogiri.org/')
+ : response = v.fetch
+ : puts response.content
